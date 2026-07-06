@@ -101,6 +101,11 @@
                         <td>template engine</td>
                         <td><span class="badge badge-custom">Blade</span></td>
                     </tr>
+                    <tr>
+                        <td>9</td>
+                        <td> migrations</td>
+                        <td><span class="badge badge-custom">Database</span></td>
+                    </tr>
                 </tbody>
             </table>
 
