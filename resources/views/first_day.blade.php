@@ -106,6 +106,11 @@
                         <td> migrations</td>
                         <td><span class="badge badge-custom">Database</span></td>
                     </tr>
+                    <tr>
+                        <td>9</td>
+                        <td> webpack (Vite)</td>
+                        <td><span class="badge badge-custom">legacy (webpack), modern(vite)</span></td>
+                    </tr>
                 </tbody>
             </table>
 
