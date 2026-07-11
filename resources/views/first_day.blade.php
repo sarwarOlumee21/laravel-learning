@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="fa">
+
 <head>
     <meta charset="UTF-8">
     <title>Learning Table</title>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -44,81 +46,83 @@
 
 <body>
 
-<div class="container table-container">
+    <div class="container table-container">
 
-    <h2 class="title">📘 Learning Today</h2>
+        <h2 class="title">📘 Learning Today</h2>
 
-    <div class="card shadow-lg">
-        <div class="card-body">
+        <div class="card shadow-lg">
+            <div class="card-body">
 
-            <table class="table table-striped table-hover text-center align-middle">
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>موضوع</th>
-                        <th>دسته بندی</th>
-                    </tr>
-                </thead>
+                <table class="table table-striped table-hover text-center align-middle">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>موضوع</th>
+                            <th>دسته بندی</th>
+                        </tr>
+                    </thead>
 
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>یادگیری امروز</td>
-                        <td><span class="badge badge-custom">General</span></td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>فریمورک</td>
-                        <td><span class="badge badge-custom">Concept</span></td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>لاراول</td>
-                        <td><span class="badge badge-custom">Framework</span></td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>ساختار لاراول</td>
-                        <td><span class="badge badge-custom">Architecture</span></td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>env</td>
-                        <td><span class="badge badge-custom">Config</span></td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>request lifecycle</td>
-                        <td><span class="badge badge-custom">Process</span></td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td>router</td>
-                        <td><span class="badge badge-custom">Routing</span></td>
-                    </tr>
-                    <tr>
-                        <td>8</td>
-                        <td>template engine</td>
-                        <td><span class="badge badge-custom">Blade</span></td>
-                    </tr>
-                    <tr>
-                        <td>9</td>
-                        <td> migrations</td>
-                        <td><span class="badge badge-custom">Database</span></td>
-                    </tr>
-                    <tr>
-                        <td>9</td>
-                        <td> webpack (Vite)</td>
-                        <td><span class="badge badge-custom">legacy (webpack), modern(vite)</span></td>
-                    </tr>
-                </tbody>
-            </table>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>یادگیری امروز</td>
+                            <td><span class="badge badge-custom">General</span></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>فریمورک</td>
+                            <td><span class="badge badge-custom">Concept</span></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>لاراول</td>
+                            <td><span class="badge badge-custom">Framework</span></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>ساختار لاراول</td>
+                            <td><span class="badge badge-custom">Architecture</span></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>env</td>
+                            <td><span class="badge badge-custom">Config</span></td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>request lifecycle</td>
+                            <td><span class="badge badge-custom">Process</span></td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>router</td>
+                            <td><span class="badge badge-custom">Routing</span></td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>template engine</td>
+                            <td><span class="badge badge-custom">Blade</span></td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td> migrations</td>
+                            <td><span class="badge badge-custom">Database</span></td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td> webpack (Vite)</td>
+                            <td><span class="badge badge-custom">legacy (webpack), modern(vite)</span></td>
+                        </tr>
+                    </tbody>
+                </table>
 
-            
+            </div>
         </div>
+        <form action="" method="Get">
+            <button type="submit" class="btn btn-primary mt-3">نمایش</button>
+        </form>
     </div>
 
-</div>
-
 </body>
+
 </html>
