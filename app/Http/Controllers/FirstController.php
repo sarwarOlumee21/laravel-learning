@@ -6,8 +6,11 @@ use Illuminate\Http\Request;
 
 class FirstController extends Controller
 {
-    public function firstLesson()
-    {
-        return view('first_day');
+    // public function firstLesson()
+    // {
+    //     return view('first_day');
+    // }
+    public function index(){
+        return "This is the second lesson";
     }
 }
