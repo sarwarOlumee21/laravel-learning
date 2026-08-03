@@ -23,3 +23,6 @@ Route::get('create-greeting', function (){
 Route::get('first-greeting',function(){
     return Greeting::first()->body;
 });
+Route::fallback(function(){
+    return "Sorry, the page you are looking for could not be found.";
+});
