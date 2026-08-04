@@ -5,6 +5,7 @@ use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\FirstController;
 use App\Http\Controllers\WelcomeController;
 use App\Greeting;
+use App\Http\Controllers\TaskController;
 
 // Route::get('/', function () {
 //     return view('welcome');
@@ -26,3 +27,6 @@ Route::get('first-greeting',function(){
 Route::fallback(function(){
     return "Sorry, the page you are looking for could not be found.";
 });
+
+// this made for task
+Route::resource('tasks',TaskController::class);
