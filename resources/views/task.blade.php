@@ -8,6 +8,7 @@
 <body>
     <div>
         <form action="/tasks" method="POST">
+            @method('DELETE')
             @csrf
             <input type="text" name="task" placeholder="Enter a new task">
             <button type="submit">Add Task</button>

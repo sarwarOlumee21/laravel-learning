@@ -109,9 +109,14 @@
                             <td><span class="badge badge-custom">Database</span></td>
                         </tr>
                         <tr>
-                            <td>9</td>
+                            <td>10</td>
                             <td> webpack (Vite)</td>
                             <td><span class="badge badge-custom">legacy (webpack), modern(vite)</span></td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td> method spoofing</td>
+                            <td><span class="badge badge-custom">HTTP</span></td>
                         </tr>
                     </tbody>
                 </table>
