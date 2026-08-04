@@ -16,6 +16,7 @@ class TaskController extends Controller
         return view('task', compact('tasks'));
     }
 
+
     /**
      * Show the form for creating a new resource.
      */
