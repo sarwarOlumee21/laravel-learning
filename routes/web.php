@@ -7,6 +7,7 @@ use App\Http\Controllers\WelcomeController;
 use App\Greeting;
 use App\Http\Controllers\TaskController;
 use App\Http\Controllers\PrintContract;
+use App\Models\Task;
 
 // Route::get('/', function () {
 //     return view('welcome');
@@ -35,3 +36,7 @@ Route::get(
     '/contracts/{id}/print',
     PrintContract::class
 );
+// Route Model Binding
+Route::get('tasks/{task}',function(Task $task){
+    return $task;
+});
