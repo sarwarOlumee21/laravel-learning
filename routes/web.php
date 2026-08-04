@@ -6,6 +6,7 @@ use App\Http\Controllers\FirstController;
 use App\Http\Controllers\WelcomeController;
 use App\Greeting;
 use App\Http\Controllers\TaskController;
+use App\Http\Controllers\PrintContract;
 
 // Route::get('/', function () {
 //     return view('welcome');
@@ -30,3 +31,7 @@ Route::fallback(function(){
 
 // this made for task
 Route::resource('tasks',TaskController::class);
+Route::get(
+    '/contracts/{id}/print',
+    PrintContract::class
+);
