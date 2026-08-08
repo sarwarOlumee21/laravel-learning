@@ -18,5 +18,15 @@
 </x-buttom>
 
 <x-forms.input type="error" :message="$message" class="mt-4" />
+
+<x-named_slot>
+
+    <x-slot:title>
+        خطای سرور
+    </x-slot:title>
+
+    هشدار! مشکلی پیش آمد!
+
+</x-named_slot>
 </body>
 </html>
