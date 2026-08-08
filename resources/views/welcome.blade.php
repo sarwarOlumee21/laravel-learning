@@ -16,5 +16,7 @@
 <x-buttom type="error" :message="$message" :color="$color">
     <strong>هشدار!</strong> مشکلی پیش آمد!
 </x-buttom>
+
+<x-forms.input type="error" :message="$message" class="mt-4" />
 </body>
 </html>

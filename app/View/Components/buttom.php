@@ -10,7 +10,7 @@ class buttom extends Component
 {
     /**
      * Create a new component instance.
-     */
+     */ 
     public function __construct(public string $type,public string $message,public string $color)
     {
         
