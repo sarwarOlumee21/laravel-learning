@@ -37,6 +37,8 @@
             </table>
             <button><a href="/contracts/1/print">print</a></button>
         </div>
+
     </div>
+    
 </body>
 </html>

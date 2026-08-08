@@ -11,6 +11,6 @@ class FirstController extends Controller
     //     return view('first_day');
     // }
     public function index(){
-        return "This is the second lesson";
+        return view('first_day');
     }
 }
