@@ -15,6 +15,9 @@ class Card extends Component
     {
         //
     }
+    public function formatAlert($message){
+        return strtoupper($message);
+    }
 
     /**
      * Get the view / contents that represent the component.

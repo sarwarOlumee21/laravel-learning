@@ -43,3 +43,4 @@ Route::get('tasks/{task}',function(Task $task){
 Route::get('/', function(){
     return view('advance_component');
 });
+Route::get('/first_day', [FirstController::class, 'index'])->name('first_day');

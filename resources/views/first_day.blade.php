@@ -127,6 +127,7 @@
             <button type="submit" class="btn btn-primary mt-3">نمایش</button>
         </form>
     </div>
+    @stack('scripts')
 
 </body>
 
