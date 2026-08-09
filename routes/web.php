@@ -15,7 +15,7 @@ use App\Models\Task;
 // Route::get('/', function (){
 //     return "This is a test for the first lesson";
 // });
-Route::get('/',[WelcomeController::class, 'index']);
+// Route::get('/',[WelcomeController::class, 'index']);
 // Route::get('/',[FirstController::class, 'firstLesson']);
 Route::get('create-greeting', function (){
     $greeting = new Greeting;
@@ -39,4 +39,7 @@ Route::get(
 // Route Model Binding
 Route::get('tasks/{task}',function(Task $task){
     return $task;
+});
+Route::get('/', function(){
+    return view('advance_component');
 });
