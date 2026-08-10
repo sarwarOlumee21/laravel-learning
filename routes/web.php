@@ -44,3 +44,7 @@ Route::get('/', function(){
     return view('advance_component');
 });
 Route::get('/first_day', [FirstController::class, 'index'])->name('first_day');
+Route::delete('/delete', [PaymentController::class, 'delete'])->name('delete')->middleware('bandelete');
+Route::get('/form_delete', function(){
+    return view('form_delete');
+})->name('form_delete');

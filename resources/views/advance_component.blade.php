@@ -18,5 +18,6 @@ somethings went wrong!
     @csrf
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+<a href="{{ route('form_delete') }}">Delete</a>
 </x-card>
 

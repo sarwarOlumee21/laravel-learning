@@ -16,4 +16,8 @@ class PaymentController extends Controller
     {
         return $this->payment->pay();
     }
+    public function delete()
+    {
+        return "Delete method is not allowed.";
+    }
 }
